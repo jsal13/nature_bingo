@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <title>Nature Bingo</title>
+    <style>
+        body {
+            font-family: "Lora", serif;
+            font-style: normal;
+            font-size: 12px;
+        }
+
+        .drop-area.highlight {
+            border-color: blue;
+            background-color: #eee;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .col {
+            flex: 1 0 15%;
+            /* Five cols.*/
+            margin: 5px;
+            background: tomato;
+            height: 2rem;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .done {
+            /* Square is complete */
+            background-color: forestgreen !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col">1</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
+        <div class="col">4</div>
+        <div class="col">5</div>
+    </div>
+    <div class="row">
+        <div class="col">6</div>
+        <div class="col">7</div>
+        <div class="col">8</div>
+        <div class="col">9</div>
+        <div class="col">10</div>
+    </div>
+    <div class="row">
+        <div class="col">11</div>
+        <div class="col">12</div>
+        <div class="col">13</div>
+        <div class="col">14</div>
+        <div class="col">15</div>
+    </div>
+    <div class="row">
+        <div class="col">16</div>
+        <div class="col">17</div>
+        <div class="col">18</div>
+        <div class="col">19</div>
+        <div class="col">20</div>
+    </div>
+    <div class="row">
+        <div class="col">21</div>
+        <div class="col">22</div>
+        <div class="col">23</div>
+        <div class="col">24</div>
+        <div class="col">25</div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
